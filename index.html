@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danielle & Javon | Wedding</title>
+    <meta
+      name="description"
+      content="Danielle and Javon are getting married on March 27, 2027 at Piper Palm House in Tower Grove Park."
+    />
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="home-page">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Danielle and Javon home">Danielle &amp; Javon</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation menu">Menu</button>
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="our-story.html" class="nav-link">Our Story</a>
+          <a href="wedding-details.html" class="nav-link">Wedding Details</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-image" role="img" aria-label="Couple standing together outdoors in warm natural light"></div>
+        <div class="hero-content container">
+          <p class="eyebrow">Save the date</p>
+          <h1>Danielle &amp; Javon</h1>
+          <p class="date-line">March 27, 2027</p>
+          <p class="venue-line">Piper Palm House in Tower Grove Park</p>
+        </div>
+      </section>
+
+      <section class="countdown-section">
+        <div class="container countdown-shell">
+          <p class="countdown-label">Counting down to our day</p>
+          <p class="sr-only" id="countdown-description">Countdown to March 27, 2027.</p>
+          <div class="countdown" data-countdown aria-describedby="countdown-description" aria-live="off"></div>
+        </div>
+      </section>
+
+      <section class="feature-grid container">
+        <article class="feature-card">
+          <p class="eyebrow">Wedding details</p>
+          <h2>Venue, timing, and travel</h2>
+          <p>Details about the ceremony, reception, and venue information will be added here.</p>
+          <a class="button button-primary" href="wedding-details.html">View details</a>
+        </article>
+
+        <article class="feature-card">
+          <p class="eyebrow">Our story</p>
+          <h2>A little about us</h2>
+          <p>We will share more of our story and the moments that led us here.</p>
+          <a class="button button-secondary" href="our-story.html">Read our story</a>
+        </article>
+
+        <article class="feature-card">
+          <p class="eyebrow">RSVP</p>
+          <h2>We would love to celebrate with you</h2>
+          <p>RSVP details will be shared as soon as our guest response form is ready.</p>
+          <span class="button button-primary">RSVP</span>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>Danielle &amp; Javon</p>
+        <p>March 27, 2027</p>
+      </div>
+    </footer>
+  </body>
+</html>
